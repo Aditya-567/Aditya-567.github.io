@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <div
+          class="navbar"
+          style="
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: white;
+          "
+        >
+          <div class="logo-container">
+            <img src="./images/userAsset/NavLogo.jpg" class="logo" />
+            <div class="logo-text">ditya Kumar</div>
+          </div>
+
+          <div class="nav-items">
+            <div><a href="#about">About</a></div>
+            <div><a href="#experience">Experience</a></div>
+            <div><a href="#skills">Skills</a></div>
+            <div><a href="#projects">Projects</a></div>
+            <div><a href="#contactme">Contact Me</a></div>
+          </div>
+        </div>
+
+        <div class="hero-section">
+          <div class="hero-section-left">
+            <div class="hero-section-heading">Hi! Aditya Kumar</div>
+
+            <div class="hero-section-heading hero-section-sub-heading">
+              I am a <span class="role"></span>
+            </div>
+
+            <div class="hero-section-description">
+              Welcome to my portfolio website! Here, you will dive into my world
+              as a software developer and discover the path I've traveled in the
+              tech landscape. Explore the projects I've worked on, the skills
+              I've honed, and the passions that drive my professional journey.
+              Join me as we navigate through my experiences and achievements in
+              the realm of software development.<br /><br />
+              Here's my Resume
+            </div>
+
+            <a href="/images/userAsset/Aditya-Resume.pdf" target="_blank">
+              <div class="btn-pink" id="btn">Resume</div>
+            </a>
+          </div>
+
+          <div class="hero-section-right">
+            <div class="absolute icons icon-dots">
+              <img src="./images/userAsset/dots.png" alt="" />
+            </div>
+            <div class="absolute icons icon-cube">
+              <img src="./images/userAsset/cube.png" alt="" />
+            </div>
+            <div class="absolute icons icon-circle">
+              <img src="./images/userAsset/circle.png" alt="" />
+            </div>
+            <div class="absolute icons icon-zigzag">
+              <img src="./images/userAsset/zigzags.png" alt="" />
+            </div>
+            <div class="absolute icons icon-plus">
+              <img src="./images/userAsset/plus.png" alt="" />
+            </div>
+            <div class="user-image">
+              <img
+                src="./images/userAsset/UserImage.jpg"
+                style="height: 300px; width: 320px"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--About-->
+      <div
+        class="about-container"
+        id="about"
+        style="display: flex; align-items: left"
+      >
+        <img
+          style="box-shadow: 3px 3px 10px black"
+          align="center"
+          alt="GIF"
+          src="https://media2.giphy.com/media/2IudUHdI075HL02Pkk/giphy.gif?cid=ecf05e47ajwx43swwpzg1hgmyyoxre5orkkt79hjpc61mdse&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+        />
+
+        <div style="padding-left: 60px">
+          <h3
+            style="
+              font-size: 50px;
+              font-weight: 600;
+              color: #e84949;
+              font-weight: bold;
+            "
+          >
+            <b>ABOUT</b>
+          </h3>
+          <p>
+            I am Aditya Kumar, sometimes people call me Adi.
+            <br /><br />
+            I am a versatile software developer whose interests extend far
+            beyond the confines of my technical work. A creative at heart, I
+            indulge in painting and crafting, finding joy in bringing my
+            imaginative concepts to life. I am an avid gamer who enjoys
+            exploring new worlds and strategies in my downtime. Music and
+            adventure are also passions of mine, providing me with a sense of
+            rhythm and excitement, whether I'm attending a live concert or
+            trekking through uncharted territories.<br /><br />
+            Additionally, I am a keen reader of blogs, constantly seeking to
+            expand my knowledge and stay updated on various topics. These
+            hobbies not only enrich my personal life but also enhance my
+            professional capabilities by fostering a well-rounded skill set.<br /><br />
+            <a
+              href="https://www.linkedin.com/in/aditya-kumar-820a8b227/"
+              target="_blank"
+            >
+              <img
+                src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+                target="_blank"
+              />
+            </a>
+            <a href="https://leetcode.com/Aditya000567/" target="_blank">
+              <img
+                src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=yellow"
+                target="_blank"
+              />
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <!--Experience-->
+      <div class="experience-container" id="experience">
+        <h2 class="page-header">Experience</h2>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="main-timeline">
+                <div class="timeline"></div>
+                <div class="timeline">
+                  <a href="#" class="timeline-content">
+                    <div class="timeline-year">November 2023</div>
+                    <h3 class="title">AWS Academy Cloud Developing</h3>
+                    <p class="description">By AWS Academy</p>
+                  </a>
+                </div>
+                <div class="timeline">
+                  <a href="#" class="timeline-content">
+                    <div class="timeline-year">October 2023</div>
+                    <h3 class="title">HACKOBERFEST</h3>
+                    <p class="description">
+                      contributed to an open-source project where I developed
+                      and integrated a login system using Firebase services.
+                      This enhancement aimed to streamline user authentication
+                      processes and improve security protocols. My contribution
+                      involved detailed problem-solving and coding, which was
+                      recognized by the community. I am proud to have earned the
+                      'Completed All Levels' badge for my contributions.
+                    </p>
+                  </a>
+                </div>
+
+                <div class="timeline">
+                  <a href="#" class="timeline-content">
+                    <div class="timeline-year">April 2023</div>
+                    <h3 class="title">CSA Hackathon 2.0</h3>
+                    <p class="description">
+                      Engineered voice-enabled medical data graph visualization
+                      app using AWS services(AWS Lambda ,AWS Medical Comprehend,
+                      AWS Neptune, AWS Lex ,AWS EC2) that reduced data analysis
+                      time by for healthcare professionals.
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 
+      <div class="project-section" id="projects">
+        <h2 class="page-header">Projects</h2>
+
+        <div class="project-container">
+          <div class="project-card" id="project1">
+            <div class="project-number project-number-right">01</div>
+            <div class="project-content project-content-left">
+              <div class="project-skills-container">
+                <img
+                  class="project-skill"
+                  src="./images/stack/HTML.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Typescript.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/NextJsCircle.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Tailwind.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/NodeJs.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/MongoDB.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Redux.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Vercel.svg"
+                  alt=""
+                />
+              </div>
+
+              <h2 class="project-heading">WebSleuth</h2>
+
+              <p class="project-subHeading">
+                web scraping-based price tracker website that provides real-time
+                updates and alerts
+              </p>
+              <div class="btn-grp">
+                <button class="btn-pink btn-project">Demo</button>
+                <a href="https://github.com/Aditya-567/WebSleuth.git">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" id="project2">
+            <div class="project-number project-number-left">02</div>
+            <div class="project-content project-content-right">
+              <div class="project-skill-container">
+                <img
+                  class="project-skill"
+                  src="./images/stack/HTML.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/CSS.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Javascript.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/NextJsCircle.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Tailwind.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Redux.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Vercel.svg"
+                  alt=""
+                />
+              </div>
+              <h2 class="project-heading">Breaking Copyrights</h2>
+              <p class="project-sub-heading">
+                A platform to download copyrights free youtube music
+              </p>
+              <div class="btn-group">
+                <button class="btn-pink btn-project">Read More</button>
+                <a href="">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a href="">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" id="project3">
+            <div class="project-number project-number-right">03</div>
+            <div class="project-content project-content-left">
+              <div class="project-skill-container">
+                <img
+                  class="project-skill"
+                  src="./images/stack/HTML.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/CSS.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Javascript.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/NextJsCircle.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Tailwind.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Vercel.svg"
+                  alt=""
+                />
+              </div>
+
+              <h2 class="project-heading">Isha Tattva</h2>
+              <p class="project-sub-heading">
+                A Website for interior designer to showcase her works and
+                samples
+              </p>
+              <div class="btn-group">
+                <button class="btn-pink btn-project">Read More</button>
+                <a href="">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a href="">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" id="project4">
+            <div class="project-number project-number-left">04</div>
+            <div class="project-content project-content-right">
+              <div class="project-skill-container">
+                <img
+                  class="project-skill"
+                  src="./images/stack/NextJsCircle.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Tailwind.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Vercel.svg"
+                  alt=""
+                />
+              </div>
+              <h2 class="project-heading">Granit</h2>
+              <p class="project-sub-heading">
+                A architectural website to plan your building or home (Hebrew
+                Language)
+              </p>
+              <div class="btn-group">
+                <button class="btn-pink btn-project">Read More</button>
+                <a href="">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a href="">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="skills" class="container skills-container">
+        <div class="skill-fade-text">Skills</div>
+
+        <div class="skill-container-left">
+          <h2 class="skill-heading">
+            <span class="caps">M</span>e and
+            <br />
+            MyTech Stack
+          </h2>
+
+          <div class="skill-subHeading">
+            <p>
+              I am Aditya Kumar, a software developer with expertise in a
+              diverse range of programming languages, frameworks, and
+              technologies. My technical skills encompass languages like C, C++,
+              JavaScript, and TypeScript, as well as frameworks such as ReactJS
+              and Next.js for front-end development, and TailwindCSS for design.
+              I utilize tools like VS Code, Eclipse, and Postman to enhance my
+              development efficiency and accuracy.
+            </p>
+            <p>
+              I have a strong background in using cloud technologies, notably
+              AWS and Azure, to build scalable web applications. My practical
+              experience is demonstrated through projects like WebSleuth, a
+              price tracking platform, and a dynamic college community app,
+              showcasing my ability to integrate various technologies to create
+              efficient and user-centric solutions.
+            </p>
+            <p>
+              With a comprehensive tech stack and a track record of innovative
+              projects, I am well-prepared to contribute to advanced software
+              development roles, particularly in web and cloud technology
+              environments.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="skill-container-right"
+          style="justify-content: first baseline"
+        >
+          <img
+            src="./images/userAsset/blob vector.png"
+            class="blob-style"
+            alt=""
+          />
+
+          <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+          <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+          <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/React.png" alt="" class="skills-logo" />
+          <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
+
+          <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+
+          <img src="./images/stack/Express.png" alt="" class="skills-logo" />
+          <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Graphql.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" />
+
+          <img src="./images/stack/Docker.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/K8s.svg" alt="" class="skills-logo" />
+        </div>
+      </div>
+
+      <div class="contactus-form-container" id="contactme">
+        <div class="container">
+          <h1 class="contactus-heading">Contact me</h1>
+
+          <h3 class="contactus-sub-heading">
+            Questions, thoughts, or just want to say hello?
+          </h3>
+
+          <div class="contactus-form-container">
+            <form class="form" action="">
+              <div class="formfield-container">
+                <input
+                  class="formfield"
+                  type="text"
+                  name="name"
+                  id=""
+                  placeholder="Enter your name"
+                />
+
+                <input
+                  class="formfield"
+                  type="email"
+                  name="email"
+                  id=""
+                  placeholder="Enter your email address"
+                />
+
+                <input
+                  class="formfield"
+                  type="text"
+                  name="subject"
+                  id=""
+                  placeholder="Enter your subject"
+                />
+
+                <textarea
+                  name="message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="formfield formfield-textarea"
+                  placeholder="Enter your message"
+                ></textarea>
+              </div>
+
+              <div>
+                <button type="submit" class="btn-pink" id="submit-btn">
+                  Send Message<i
+                    class="submit-icon fa-solid fa-paper-plane"
+                  ></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container">
+          <div class="footer-wrapper">
+            <div class="footer-faded-text">John Doe</div>
+
+            <div class="link-wrapper">
+              <div>
+                <a href="#projects">Projects</a>
+              </div>
+              <div>
+                <a href="#skills">Skills</a>
+              </div>
+              <div>
+                <a href="#contactme">Contact Me</a>
+              </div>
+            </div>
+
+            <div class="icon-wrapper">
+              <i class="fa-brands fa-linkedin icon"></i>
+              <i class="fa-brands fa-github icon"></i>
+              <i class="fa-brands fa-twitter icon"></i>
+              <i class="fa-brands fa-instagram icon"></i>
+              <i class="fa-regular fa-envelope icon"></i>
+            </div>
+          </div>
+        </div>
+      </footer> -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: [
+          "Full Stack Developer",
+          "Web Developer",
+          "Cloud-Enthusiast",
+          "Coder",
+          "Front End Developer",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+  </body>
+</html>
