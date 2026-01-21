@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { ExternalLink, Github, Code2, Cpu, Home, X, Maximize2, Minimize2 } from 'lucide-react';
 
 import { FuzzyText } from "./Portfolio";

@@ -31,7 +31,7 @@ const SystemStatus = () => {
 
     return (
         <div className="inline-block mb-4 px-3 py-1 bg-gradient-to-b from-[#222] to-black border border-white/10  rounded-full text-green-400 text-sm font-mono animate-pulse shadow-[0_0_15px_rgba(34,197,94,0.2)]">
-            System Online. Welcome, User <span className="font-bold">#{visitorCount}</span>
+            System Online. Welcome, User <span className="font-bold">{visitorCount}</span>
         </div>
     );
 };
